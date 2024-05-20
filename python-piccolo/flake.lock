@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1716207776,
+        "narHash": "sha256-PgFwSNFHbPfcc8VENKGEAhr7NRl08594qr4XL3vf3cE=",
+        "owner": "r-ryantm",
+        "repo": "nixpkgs",
+        "rev": "5e3026b6c5df36d8d93c44f52dcbfef28b0cf018",
+        "type": "github"
+      },
+      "original": {
+        "owner": "r-ryantm",
+        "ref": "auto-update/python311Packages.piccolo-theme",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
