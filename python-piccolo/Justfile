@@ -1,2 +1,2 @@
 test:
-    cd docs && make serve
+    cd docs && SPHINXOPTS=-E make html && make serve

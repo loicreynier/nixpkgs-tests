@@ -1,0 +1,7 @@
+test: test-example test-docs
+
+test-docs:
+    cd docs && SPHINXOPTS=-E make html && make serve
+
+test-example:
+    myst-docutils-demo example.md --myst-enable-extensions=colon_fence

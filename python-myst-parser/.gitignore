@@ -1,0 +1,8 @@
+# Nix generated
+result
+
+# Cache
+__pycache__/
+
+# Sphinx build
+docs/_build/

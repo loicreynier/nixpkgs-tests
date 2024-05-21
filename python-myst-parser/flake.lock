@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1716235719,
+        "narHash": "sha256-H6nr3vNl+hH1AYXpYxTqkOf0okNj/HJcr/vQxG+QBOM=",
+        "owner": "loicreynier",
+        "repo": "nixpkgs",
+        "rev": "8f0a77f854c163e70e698ab5fe09a98f548015f1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "loicreynier",
+        "ref": "feat-myst-parser-update",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
