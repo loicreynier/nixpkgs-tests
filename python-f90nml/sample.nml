@@ -1,0 +1,10 @@
+&namelist_group1
+    variable1 = 42,
+    variable2 = 3.14,
+    variable3 = 'hello'
+/
+
+&namelist_group2
+    variableA = .true.,
+    variableB = 1, 2, 3
+/
