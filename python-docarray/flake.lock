@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1710868757,
+        "narHash": "sha256-Hm2wXEA+TngEDxOgL5jchugwRrWg9cFklIFBixbpNzQ=",
+        "owner": "loicreynier",
+        "repo": "nixpkgs",
+        "rev": "8610f5a626446f00d9745c7e1753fc0fc5a4aacb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "loicreynier",
+        "ref": "feat-python3-docarray-init-at-0.40",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
