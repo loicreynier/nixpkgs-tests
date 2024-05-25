@@ -1,0 +1,10 @@
+plugin := "./sample.esp"
+spriggit := "Spriggit.CLI"
+spriggit_output := "./plugins"
+
+test-serialize:
+    {{ spriggit }} serialize \
+        -i {{ plugin }} \
+        -o {{ spriggit_output }}/$(basename {{ plugin }}) \
+        -g SkyrimSE \
+        -p Spriggit.Yaml.Skyrim
