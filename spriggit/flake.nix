@@ -32,6 +32,6 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-    nixpkgs-lor.url = "github:loicreynier/nixpkgs-lor";
+    nixpkgs-lor.url = "github:loicreynier/nixpkgs-lor/feat-spriggit-update";
   };
 }
