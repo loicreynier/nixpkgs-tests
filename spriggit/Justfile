@@ -1,5 +1,8 @@
 plugin := "./sample.esp"
-spriggit := "Spriggit.CLI"
+
+# spriggit := "Spriggit.CLI"
+spriggit := "/tmp/Spriggit/CLIs/0.34.0/Spriggit.CLI.exe"
+
 spriggit_output := "./plugins"
 
 test-serialize:
