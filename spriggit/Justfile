@@ -1,11 +1,12 @@
 plugin := "./sample.esp"
 
 # spriggit := "Spriggit.CLI"
-spriggit := "/tmp/Spriggit/CLIs/0.34.0/Spriggit.CLI.exe"
+spriggit := "/tmp/Spriggit/CLIs/0.35.1/Spriggit.CLI.exe"
 
 spriggit_output := "./plugins"
 
 test-serialize:
+    chmod +x {{ spriggit }}
     {{ spriggit }} serialize \
         -i {{ plugin }} \
         -o {{ spriggit_output }}/$(basename {{ plugin }}) \
