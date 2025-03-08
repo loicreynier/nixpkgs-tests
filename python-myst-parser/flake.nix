@@ -26,6 +26,6 @@
   };
 
   inputs = {
-    nixpkgs.url = "github:loicreynier/nixpkgs/feat-python3plugins-myst-parser-update";
+    nixpkgs.url = "github:loicreynier/nixpkgs/feat/python3Packages.myst-parser/update";
   };
 }

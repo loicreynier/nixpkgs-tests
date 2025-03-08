@@ -2,16 +2,16 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "lastModified": 1729330314,
-        "narHash": "sha256-Ksy5thB9MvYBymM+lUMhoSHo5XwuCVGL2LdastdatiM=",
+        "lastModified": 1741439961,
+        "narHash": "sha256-u1Jce8Y1f3DKGA7LXnWP5uy823M8LDrwXdejy8OvNEY=",
         "owner": "loicreynier",
         "repo": "nixpkgs",
-        "rev": "990532a6d8888bee5270c2088622acac4a0f1bc2",
+        "rev": "61b6c40a13510346dd3972eb83fbc569ab9b09b1",
         "type": "github"
       },
       "original": {
         "owner": "loicreynier",
-        "ref": "feat-python3plugins-myst-parser-update",
+        "ref": "feat/python3Packages.myst-parser/update",
         "repo": "nixpkgs",
         "type": "github"
       }
